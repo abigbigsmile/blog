@@ -15,15 +15,15 @@
 <!-- /css files -->
 </head>
 <body>
-<h1>Unique Login Form</h1>
+<h1>Smile Blog</h1>
 <div class="log">
 	<div class="content2">
 		<h2>注册</h2>
-		<form>
-			<input type="text" name="userid" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'NAME AND SURNAME';}">
-			<input type="tel" name="usrtel" value="EMAIL" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PHONE';}">
-			<input type="email" name="email" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'EMAIL ADDRESS';}">
-			<input type="password" name="psw" value="CONFIRM PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}">
+		<form action="../Register/register" method="post">
+			<input type="text" name="username" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'NAME AND SURNAME';}">
+			<input type="email" name="email" value="EMAIL" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PHONE';}">
+			<input type="password" name="password" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'EMAIL ADDRESS';}">
+			<input type="password" name="confirmpassword" value="CONFIRM PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}">
 			<input type="submit" class="register" value="Register">
 		</form>
 	</div>
